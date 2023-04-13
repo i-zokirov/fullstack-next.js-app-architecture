@@ -1,13 +1,21 @@
 {
-  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:storybook/recommended"
+  ],
   "globals": {
     "React": "readonly"
   },
-
   "rules": {
     "no-unused-vars": [
       1,
-      { "vars": "all", "args": "after-used", "argsIgnorePattern": "^_" }
+      {
+        "vars": "all",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
     ]
   }
 }
