@@ -1,5 +1,6 @@
 {
-  "name": "next-architecture",
+  "name": "fullstack-next.js-app-architecture",
+  "author": "Ikboljon Zokirov",
   "version": "0.1.0",
   "private": true,
   "scripts": {
