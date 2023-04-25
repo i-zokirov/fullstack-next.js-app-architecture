@@ -29,6 +29,12 @@ const customViewports = Object.fromEntries(
 // Allow Storybook to handle Next's <Image> component
 const OriginalNextImage = NextImage.default;
 
+// Object.defineProperty(NextImage, 'default', {
+//   configurable: true,
+//   value: (props) => (
+//     <OriginalNextImage {...props} unoptimized/>
+//   ),
+// });
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
